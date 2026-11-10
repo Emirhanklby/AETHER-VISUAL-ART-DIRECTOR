@@ -1,5 +1,5 @@
 ---
-name: premium-visual-art-director
+name: aether-visual-art-director
 description: "AETHER: visual-first premium advertising art direction, creative concept evaluation, cinematic product photography, architectural/interior product staging, exact-source compositing, brand visual DNA, editorial typography, social-format adaptation, and inspected PNG production. Use for premium campaigns, supplied-product photos, commercial posters, precise product/logo preservation, visual research, creative retouching, and delivery QA."
 ---
 
