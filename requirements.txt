@@ -1,0 +1,4 @@
+Pillow>=10.0
+# Optional for approximate segmentation only:
+# numpy>=1.24
+# opencv-python>=4.8

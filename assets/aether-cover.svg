@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="450" viewBox="0 0 1280 450" role="img" aria-label="AETHER Visual Art Director cover">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0e16"/><stop offset="1" stop-color="#1b1a29"/></linearGradient>
+<linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1ece8"/><stop offset="1" stop-color="#8d96d6"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8c86ff" stop-opacity="0"/><stop offset=".6" stop-color="#a1c9d3"/><stop offset="1" stop-color="#8c86ff" stop-opacity="0"/></linearGradient>
+<radialGradient id="aura"><stop offset="0" stop-color="#7568de" stop-opacity=".22"/><stop offset="1" stop-color="#7568de" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="450" fill="url(#bg)"/>
+<rect width="1280" height="450" fill="url(#aura)"/>
+<g stroke="#f8f6f3" opacity=".055"><path d="M0 75H1280 M0 150H1280 M0 225H1280 M0 300H1280 M0 375H1280"/><path d="M80 0V450 M160 0V450 M240 0V450 M320 0V450 M400 0V450 M480 0V450 M560 0V450 M640 0V450 M720 0V450 M800 0V450 M880 0V450 M960 0V450 M1040 0V450 M1120 0V450 M1200 0V450"/></g>
+<circle cx="1037" cy="228" r="184" fill="none" stroke="#b0adf0" stroke-width="1" opacity=".23"/>
+<circle cx="1037" cy="228" r="138" fill="none" stroke="#b0adf0" stroke-width="1" opacity=".23"/>
+<path d="M899 358 L1016 99 Q1037 54 1057 99 L1171 358 M950 265 H1122" fill="none" stroke="url(#stroke)" stroke-width="25" stroke-linejoin="round" stroke-linecap="square"/>
+<path d="M877 356 C966 410 1118 416 1204 328" fill="none" stroke="#aab5ff" stroke-width="4" opacity=".85"/>
+<circle cx="1204" cy="328" r="7" fill="#dce2ff"/>
+<text x="82" y="105" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#aab6cc" letter-spacing="6">VISUAL INTELLIGENCE SYSTEM</text>
+<text x="76" y="225" font-family="Arial, Helvetica, sans-serif" font-size="106" font-weight="700" letter-spacing="-7" fill="#f3f0ed">AETHER</text>
+<text x="83" y="268" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#cfccd9" letter-spacing="5">VISUAL ART DIRECTOR</text>
+<path d="M83 305H705" stroke="url(#line)" stroke-width="1.5"/>
+<text x="83" y="357" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#d8d6de" letter-spacing="1">GENERATE THE WORLD. PRESERVE THE PRODUCT.</text>
+<text x="83" y="404" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#a2a0b3">COMPOSITION  /  CINEMATIC LIGHT  /  SOURCE-LOCKED COMPOSITING</text>
+</svg>
