@@ -1,0 +1,31 @@
+{
+  "boxes": [
+    {
+      "label": "headline",
+      "bbox": [
+        95,
+        95,
+        780,
+        220
+      ]
+    },
+    {
+      "label": "logo",
+      "bbox": [
+        95,
+        1190,
+        245,
+        1250
+      ]
+    },
+    {
+      "label": "critical product identifier",
+      "bbox": [
+        390,
+        525,
+        780,
+        870
+      ]
+    }
+  ]
+}

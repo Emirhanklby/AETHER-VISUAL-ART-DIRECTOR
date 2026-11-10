@@ -1,0 +1,68 @@
+{
+  "brief": "Example: premium television campaign using an approved packshot. Scores are illustrations, not research.",
+  "concepts": [
+    {
+      "name": "Architectural Quiet",
+      "rationale": "Frontal original television on warm travertine console; natural window light and generous type space.",
+      "ratings": {
+        "brand_audience_fit": 4.5,
+        "originality_visual_idea": 4,
+        "hierarchy_negative_space": 4.5,
+        "feasibility_product_fidelity": 5,
+        "truth_copy_legibility": 5,
+        "format_crop_safe_zones": 4.5
+      },
+      "evidence": {
+        "brand_audience_fit": "Quiet premium architecture supports refined technology positioning; confirm against client brief.",
+        "originality_visual_idea": "Architectural aperture lends a specific concept, not just a generic podium.",
+        "hierarchy_negative_space": "One hero product and one intentional copy region.",
+        "feasibility_product_fidelity": "Original frontal packshot works without perspective distortion.",
+        "truth_copy_legibility": "Only exact client-approved wording and prices are permitted.",
+        "format_crop_safe_zones": "Copy and product identifiers fit within the designated 3:4 safe region."
+      },
+      "red_flags": []
+    },
+    {
+      "name": "Hyper-Futurist Levitation",
+      "rationale": "Mirrored slabs and a floating product.",
+      "ratings": {
+        "brand_audience_fit": 3,
+        "originality_visual_idea": 3,
+        "hierarchy_negative_space": 2,
+        "feasibility_product_fidelity": 2.5,
+        "truth_copy_legibility": 4,
+        "format_crop_safe_zones": 2
+      },
+      "evidence": {
+        "brand_audience_fit": "Loud spectacle may clash with understated branding.",
+        "originality_visual_idea": "Floating mirrored slabs are familiar.",
+        "hierarchy_negative_space": "Competing shapes erode negative space.",
+        "feasibility_product_fidelity": "Product can be composited but contact and reflective realism require careful work.",
+        "truth_copy_legibility": "Noise competes with approved copy.",
+        "format_crop_safe_zones": "Slabs may collide with grid crop."
+      },
+      "red_flags": []
+    },
+    {
+      "name": "Precise Product Gallery",
+      "rationale": "Minimal product gallery with one spotlight and optical balance.",
+      "ratings": {
+        "brand_audience_fit": 4,
+        "originality_visual_idea": 3,
+        "hierarchy_negative_space": 4.5,
+        "feasibility_product_fidelity": 5,
+        "truth_copy_legibility": 5,
+        "format_crop_safe_zones": 5
+      },
+      "evidence": {
+        "brand_audience_fit": "Premium but less brand-specific.",
+        "originality_visual_idea": "A known convention, not highly distinctive.",
+        "hierarchy_negative_space": "One focal point and clean space.",
+        "feasibility_product_fidelity": "Compatible original packshot and minimal scene.",
+        "truth_copy_legibility": "Clear location for exact approved text.",
+        "format_crop_safe_zones": "Planned central placement protects critical content."
+      },
+      "red_flags": []
+    }
+  ]
+}
