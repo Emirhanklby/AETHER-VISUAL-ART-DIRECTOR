@@ -71,8 +71,8 @@ def test_evaluator_with_example():
     assert result["ranked_concepts"][0]["score"]>=80
 
 def test_typeset_with_real_font_or_skip(tmp_path):
-    candidates=list(Path("/usr/share/fonts").rglob("*.ttf"))
-    if not candidates:return
+    candidates=[p for p in Path("/usr/share/fonts").rglob("*.ttf") if p.name in {"DejaVuSans.ttf", "LiberationSans-Regular.ttf"}]
+    if not candidates:return  # An outline font is needed; fixed-size emoji fonts reject arbitrary px sizes
     product,scene,mask=setup_assets(tmp_path)
     layout=tmp_path/"type.json"
     layout.write_text(json.dumps({"elements":[
