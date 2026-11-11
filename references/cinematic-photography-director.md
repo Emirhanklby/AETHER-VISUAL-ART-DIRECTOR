@@ -1,31 +1,31 @@
 # Module 01 — Cinematic Photography Director
 
-**Activate for:** photorealistic hero shots, interiors, editorial lifestyle, product staging and plausible cinematic surreal scenes.
+**Activate for:** photorealistic product hero imagery, architectural interiors, editorial lifestyle, product staging, surreal spaces that must still obey plausible camera/lighting logic.
 
 ## Camera brief before generation
 
-Write a photographable shot: camera height, subject plane, horizon, vanishing lines, approximate lens character (35–50 mm environment; 70–105 mm compressed product), depth of field, crop and distortion tolerance. Lens numbers express intention, not guaranteed optical simulation.
+Write a photographable shot specification: sensor viewpoint, subject plane, eye/camera height relative to product, approximate lens equivalence (e.g., 35–50 mm architectural view; 70–105 mm compressed product close-up), horizon/vanishing lines, lens distortion tolerance, depth of field and crop. Focal lengths describe *visual intention*, not guaranteed simulation.
 
-For supplied source packshots, inspect visible sides, top, vanishing edges and projection. Match the room's camera to that source. Don't warp a flat front-on product to simulate nonexistent geometry.
+For a source product photo, inspect its visible side/top, vanishing edges and projection. Design the room to match that source. Do not claim a front-facing packshot becomes a convincing three-quarter view through a simple 2D warp.
 
 ## Light map
 
-Record key direction, softness, color temperature range, fill, ambient bounce and reflective surfaces. Explain how light falls on the product, ground and walls. If product highlights are locked, adapt the plate and separate shadows rather than repainting original product pixels.
+Record **key light direction** (clock position/angle), intensity ratio, hardness, color temperature range, fill, ambient spill and reflective surfaces. Explain physically why light appears on the product, ground plane and walls. Ask ChatGPT Image to match scene lighting and integrated shadows to the source product highlights while retaining its identity.
 
-- Matte: broad soft light, distinct silhouette, restrained contact shadow.
-- Glass/glossy black: controlled reflection strips and black flags; avoid featureless dark areas.
-- Brushed metal: coherent specular bands and directional texture.
-- Transparent: correct see-through behavior, refraction and carefully repaired alpha edges.
-- Interior: believable window light, wall/floor bounce, logical mounting/support.
+- Matte product: broad soft source, readable silhouette, restrained contact shadow.
+- Glossy black/glass: tall controlled strip reflection with black flags; avoid muddy all-black surfaces.
+- Brushed metal: coherent elongated speculars and directional texture; avoid uniform glow.
+- Glass/translucent: refraction, transmitted light, visible rear scenery; ask for coherent edges and transmitted light.
+- Interior: window light with believable wall/floor bounce; plausible electrical installation or support.
 
 ## Aesthetic control
 
-Choose material roughness, authentic imperfections, tonal range, atmospheric depth, white balance, contrast, grain and sharpness. One visual mood; no arbitrary stack of cinematic effects. Protect quiet negative space for typography.
+Define materials (roughness, grain, authentic imperfections), tonal range, atmospheric depth, white balance, contrast curve, sharpness and optional film grain. Use one main mood, not all atmospheric effects at once. Preserve calm negative-space regions for copy; no bright specular hotspot under text.
 
-## Acceptance
+## Photo-direction acceptance
 
-Perspective and scale plausible; highlights and shadows agree; material and camera sharpness consistent; no hovering objects, duplicate products or generative text.
+Product perspective compatible with background; scale physically plausible; highlight direction consistent; cast shadow aligned with light and contact surface; textures not unnaturally smooth; focus/sharpness consistent with camera depth; no duplicated product or unintended writing; exact requested campaign text is rendered in ChatGPT Image.
 
-## Scene-only prompt
+## Prompt template
 
-"Empty [interior/studio/conceptual] photographic environment, [aspect ratio], camera [viewpoint] with [lens character], horizon [position]; product placement region [x/y fraction] intentionally EMPTY and physically supported. Key light [direction, quality, warmth], restrained fill; [material palette]; authentic surfaces and negative space reserved for typography. No products, writing, substitute gadgets or extra focal props."
+Create a complete photographic product advertisement using the supplied product identity reference, [aspect/dimensions]. Match the camera to [source view], with [lens character], horizon [position] and plausible [support surface]. Retain the product's visible design and details. Key light [direction/quality], fill [description], [material palette]. Reserve calm copy space above the bottom 12% footer reserve; render only [exact requested copy]. Keep the footer empty, naturally continuing the background, without strong shadows or scene objects. No decorative lines beside, above or below typography. No duplicate product, invented features, extra writing or watermark.

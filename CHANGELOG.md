@@ -1,12 +1,20 @@
-# Changelog
+# Sürüm notları
 
-## 2.0.1 — Repository packaging
-- Added AETHER identity: SVG logo and repository cover.
-- Added ChatGPT and Codex installation guides, creative briefing and contributor instructions.
-- Added Python validation workflow for GitHub Actions.
-- Kept v2.0 art-direction and compositing logic.
+## 3.1
 
-## 2.0 — Visual Intelligence & Production
-- Six art-direction modules and Concept Evaluation.
-- PNG compositing, masking, export, typography, QA helper and tests.
-- Visual research, product fidelity and Instagram safe-zone guidance.
+- Üretim öncesinde seçilen konseptin adı, ana fikri ve 3–5 görünür özelliğini kaydetme.
+- Nihai görseli bu özelliklerle karşılaştıran zorunlu konsept sadakati kontrolü.
+- Fikir değerlendirmesi ile üretilen görselin uygulama değerlendirmesini ayırma.
+- Eksik temel konsept öğesinin, yüksek puanla telafi edilmesini engelleme.
+- Konseptten sapmayı ChatGPT Image ile düzeltme ve sonrasında tüm kareyi tekrar kontrol etme.
+- İncelenemeyen veya çözülemeyen durumları doğrulanmış gibi sunmama.
+
+## 3.0
+
+- Tasarım ve düzeltmeler için yalnızca ChatGPT Image kullanımı.
+- Pillow, OpenCV, harici kompozit, kodla tipografi ve mekanik export üretim yollarının kaldırılması.
+- Varsayılan %12 boş footer rezervi.
+- Tipografi çevresindeki dekoratif uzun/kısa çizgi, ayraç ve süs çerçevelerinin engellenmesi.
+- Ürün referansı, tipografi, fotoğraf, üretim ve kalite modüllerinin bu iş akışına uyarlanması.
+
+Bu depo yenilemesi v2.x dosyalarını güncel v3.1 paketi ve yeniden yazılmış kullanım rehberiyle değiştirir. Önceki içerikler Git geçmişinde kalır.

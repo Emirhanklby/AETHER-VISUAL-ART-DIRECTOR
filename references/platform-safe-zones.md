@@ -1,34 +1,17 @@
-# Platform safe zones — Instagram Feed
+# Working layout geometry
 
-These are the **user-specified design guidelines** for preparing Instagram Feed visuals and anticipating a centered **3:4** crop in the profile grid. UI implementations can change; test with the actual target placement when possible.
+Treat these as design guidelines and crop scenarios, not a guarantee of any platform's current interface. Verify current destination specifications when that matters. Apply the empty footer reserve in addition to edge/crop safety.
 
-## Feed post, square (1080 × 1080 px)
+## 1080 × 1350 feed design
 
-- **Minimum edge inset:** 60 px per side.
-- **Full-feed content-safe rectangle:** `x: 60–1020`, `y: 60–1020`.
-- **Centered 3:4 profile-grid crop:** when the preview displays the full 1080 px height, the 3:4 width is `(3/4) × 1080 = 810 px`. Side crop: `(1080−810)/2 = 135 px` per side.
-- **Grid-visible rectangle:** `x: 135–945`, `y: 0–1080`.
-- **Combined essential-content safe rectangle:** `x: 135–945`, `y: 60–1020`.
+Use at least 60 px edge insets for critical content. The 12% footer starts at y=1188, so the ordinary bottom edge inset does not permit placing content in the reserve. Leave additional breathing room above y=1188. A hypothetical centered 3:4 preview trims about 34 px from each side; the 60 px horizontal inset covers this scenario.
 
-## Feed post, portrait (1080 × 1350 px)
+## 1080 × 1080 feed design
 
-- **Minimum edge inset:** 60 px per side.
-- **Full-feed content-safe rectangle:** `x: 60–1020`, `y: 60–1290`.
-- **Centered 3:4 profile-grid crop:** `(3/4) × 1350 = 1012.5 px` visible width. Side crop: `(1080−1012.5)/2 = 33.75 px` on each side (roughly 34 px).
-- **Approximate grid-visible rectangle:** `x: 34–1046`, `y: 0–1350` (rounded).
-- **Combined essential-content safe rectangle:** `x: 60–1020`, `y: 60–1290`; the 60 px perimeter is stricter than the approximately 34 px grid trim.
+Use at least 60 px edge insets. A hypothetical centered 3:4 preview retains x=135–945. The default footer occupies the bottom approximately 130 px, starting at y≈950. Keep content above it with breathing room; combine this with x=135–945 when that crop is relevant.
 
-## What counts as critical content?
+## Stories, Reels and other formats
 
-Campaign headline, product name, logo, offer or price, date, legal qualifiers when required, CTA if used, and distinctive product details that must be identifiable. Secondary background shapes or deliberate artistic crops may extend beyond safe areas.
+Adapt the layout independently through ChatGPT Image. Use current placement-specific evidence to avoid interface overlays. Keep the footer reserve even when additional platform UI exclusion zones are necessary; a bottom 12% reserve alone does not prove Story/Reels safety.
 
-## Practical production workflow
-
-1. Confirm actual target dimensions (1080 × 1080 vs. 1080 × 1350).
-2. Establish the combined safe content rectangle before placing text, logos, prices, and important subjects.
-3. Make a considered composition with generous negative space inside and around the safe region; avoid automatically centering all elements.
-4. Generate/render, then preview the full post and simulate the **centered 3:4 profile crop** at thumbnail scale.
-5. If essential content clips or becomes illegible, reposition/re-scale critical elements and recheck.
-6. If no image or render is available for inspection, include these rules in the prompt but do not report a completed crop verification.
-
-> Scope: Instagram **Feed** only. Do not presume these measurements are correct for Stories, Reels, ads, or every version of the profile grid.
+Describe desired positions in the generation prompt. Inspect actual output and available metadata without manufacturing crop tests or exact measurements. Do not invoke scripted crop/export/audit tools. Revise composition with ChatGPT Image when needed.

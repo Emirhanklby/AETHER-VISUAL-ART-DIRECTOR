@@ -1,25 +1,19 @@
-# AETHER — Reusable prompt examples
+# Complete-image prompt examples
 
-These examples are starting points, not rigid reusable visual templates. Preserve approved branding, factual data and supplied product details.
+Adapt these to actual references and verified facts. Send actual image references through the supported image tool mechanism. Never silently leave placeholders in a production prompt.
 
-## 1 — Premium technology hero, no text baked in
+## Product campaign with exact copy
 
-Create a sophisticated premium editorial technology campaign key visual, vertical 4:5. Treat the supplied product as the only hero and preserve its real geometry, silhouette, screen art, colors, branding and proportions. Build a calm environment with deliberate optical balance, generous quiet space for separately typeset copy, authentic studio lighting, subtle material texture and plausible soft cast/contact shadow. Use a restrained, brand-correct accent. No text within the generated scene, invented UI, stickers, neon circles, decorative spheres, substitute products, confusing floating props or watermark. Respect format crop safe zones.
+Create a complete premium 4:5 advertising image, target 1080 × 1350, using the supplied product photo as the product identity reference. Retain its visible design, silhouette, proportions, color, branding, stand and controls as closely as possible. Stage it in a refined tactile studio scene with realistic support, coherent soft directional lighting and controlled reflections. Choose deliberate optical balance and generous clean space for the exact headline “[HEADLINE]” and subordinate exact date “[DATE]”. Render both clearly within this image; add no other copy. Follow the supplied brand palette. Keep all content comfortably above y=1188. Reserve the full-width bottom 162 pixels as quiet continuation of the background with no product, support stage, text, logo, strong shadow, reflection, prop or footer label. No separate footer panel or boundary. No long or short decorative lines, rules, underlines, overlines, dividers, brackets, ticks or text frames beside, above or below any typography. Preserve punctuation within exact copy. No invented offers, badges, confetti, extra products or watermark.
 
-## 2 — Sparse-copy promotional campaign
+## Product in an interior
 
-Design a concept-led premium retail campaign poster in 3:4 or user-specified portrait format. Use one strong visual idea and a clear headline hierarchy: exact headline "[EXACT HEADLINE]", subordinate line "[EXACT DATE]", optional approved logo, and no unverified prices. Use approved brand colors, fonts and logos. Treat empty space as an active design element. Do not add copy, slogans, badges or duplicate dates. If generative model cannot reliably render exact typography, produce a **text-free background** then overlay real-font copy.
+Using the supplied product photo as the identity reference, create a complete photorealistic premium interior advertisement in [ASPECT]. Match the room camera to the product's existing view; retain its recognizable physical details. Place it on a plausible support with realistic scale, integrated contact shadow and coherent [LIGHT DIRECTION] lighting. Use [APPROVED MATERIALS/PALETTE]. Render only the exact supplied copy “[COPY]” in a calm region above the footer. Reserve the bottom 12% across the full width for quiet background only, with no content, strong shadows, stage or footer panel. No decorative strokes, separators, underlines, overlines, brackets or frames around text. No invented product features or duplicate products. Produce the whole final scene and typography together.
 
-## 3 — Design critique and redesign
+## Targeted revision
 
-Act as a senior art director. Evaluate focal point, unnecessary effects, hierarchy, spacing, negative space, composition balance, typography and recognizable AI-design tropes. Redesign while preserving all required copy, brand identity, product geometry and output dimensions. Remove clutter rather than shrinking everything. Show a meaningful improvement without becoming generic.
+Edit the supplied previous design. Change only [SPECIFIC ISSUE], preserving the approved concept, product identity, colors, camera view and exact unaffected copy as closely as possible. Use the original product reference to retain its details. Keep the bottom 12% empty with natural quiet background and no content or separator. Remove all decorative short/long strokes, underlines, overlines, rules and text frames while retaining legitimate punctuation. Add no extra copy, labels, props or watermark. Check that the requested correction remains legible and coherent with the rest of the frame.
 
-## 4 — Interior product placement: lock the source
+## Text-free artwork when explicitly requested
 
-**Step A — Empty scene plate prompt:** Create a photorealistic premium interior at [TARGET SIZE], matching original product photo camera viewpoint. Use [MATERIAL PALETTE], soft key light from [DIRECTION], physically realistic support surface at [POSITION], and a calm typography region at [POSITION]. Leave the product area empty; **do not generate any product or a replacement**. No writing, logos, clutter, generic gadgets or watermarks.
-
-**Step B — Compositing operation:** Carefully mask the user's exact supplied product photo. Preserve screen design, geometry, marks, bezel, stands, colors and original view. Place cutout on scene plate with only proportional scale and translation. Maintain separate shadow, foreground occlusion and typography overlays. Compare final at 100% against source and export exact requested pixels. Never substitute a generative approximation for the actual product.
-
-## 5 — Conceptual product staging
-
-Create an empty conceptual architectural plate featuring [SCULPTURAL PLATFORM / MIRRORED SPACE / NATURAL LANDSCAPE] with a physically coherent product placement zone. Dramatic but controlled light, credible materials, a single strong concept and large negative-space region. No source product, simulated product, text or logo. Later composite real source cutout and manually inspect physical grounding and reflections.
+Create the complete [CONCEPT] visual using the supplied references in [ASPECT]. Retain product identity as closely as possible. Include no writing, logos added to the scene, placeholder text or decorative marks. Keep the bottom 12% full-width quiet and empty, with all hero content and strong shadows above it. Use [LIGHT/MATERIAL/PALETTE] and one clear focal point. Do not add decorative line graphics. This is finished text-free artwork, not a required first step for external assembly.

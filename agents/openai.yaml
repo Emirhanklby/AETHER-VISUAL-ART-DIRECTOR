@@ -1,0 +1,14 @@
+interface:
+  display_name: AETHER Visual Art Director
+  short_description: Premium ads with ChatGPT Image, clean footer and type
+  default_prompt: Use $aether-visual-art-director to create a premium product advertisement
+    with ChatGPT Image, a clean empty footer, and no decorative lines around text.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

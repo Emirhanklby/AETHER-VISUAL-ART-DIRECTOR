@@ -1,22 +1,13 @@
-# Module 04 — Advanced Layout & Typography
+# Layout and typography in ChatGPT Image
 
-**Activate for:** posters, feed graphics, price promotions, editorial ads, typography-sensitive deliverables and multi-format variants.
+Define hierarchy before type styling: hero subject, main statement, required offer/date, optional brand/legal information. Use editorial asymmetry, a calm centered hero or an offset subject based on the concept. Establish consistent alignment and generous breathing room.
 
-## Layout system
+Reserve the bottom 12% full-width by default, with natural quiet background only. Keep every content element above the reserve with extra breathing room. Footer height is user-adjustable. Do not place logos or legal text there by habit.
 
-Pick the **hierarchy before fonts**: hero subject → primary statement → optional required offer/date → logo/legal. Sketch 3 possible grids: editorial asymmetry, calm centered hero, or offset product with a vertical copy rail. Use consistent alignments, controlled baseline rhythm, optical correction, and one expressive break from the grid if justified.
+Render all requested copy in ChatGPT Image. Specify exact strings, language, case, Turkish diacritics, hierarchy, weight, tracking intent, line breaks and readable contrast. Use a requested font as a visual target without claiming a native font file was loaded or exact font compliance was verified.
 
-- Negative space must be intentional: define a quiet **text plane** and subject-safe area before adding decorations.
-- Use line breaks to emphasize meaning and maintain short readable lines. Avoid cramming headline, feature list, slogan and CTA onto one poster.
-- Start with generous outer margins, but check actual safe zones; for Instagram see platform-safe-zones.md. For other placements use verified current specs rather than inventing margins.
-- Treat brand logo and disclaimer as distinct hierarchy levels; don't shrink mandatory copy below readable size.
+Never add underlines, overlines, short/long strokes, rules, separators, brackets or decorative frames next to typography. Preserve legitimate punctuation within supplied copy and real product markings. Create hierarchy with typography and space alone.
 
-## Typography
+If text is wrong, request a targeted image edit with the exact replacement and retain the rest of the composition. Do not use external typesetting. Inspect every visible word again after editing.
 
-Specify typeface file/family, weights, optical alignment, tracking, line-height and exact copy. Maintain Turkish diacritics. If a font is unavailable, disclose substitution, don't claim exact rendering.
-
-For image-generated backgrounds, place type with native text layers (e.g. Pillow typeset or a design editor), not baked into the scene. Retain editable overlays where possible. Verify contrast against actual background rather than a guessed overall palette. WCAG 2.x AA targets: 4.5:1 for normal text and 3:1 for large text; don't claim pass without measurement.
-
-## Responsive adaptation
-
-Adapt *composition*, not just pixels: square, 4:5 and 9:16 placements need different subject positions and headline breaks. The export helper does contain/center-crop mechanics, not intelligent reframing. Check each variant and crop preview.
+Adapt composition for each aspect ratio through ChatGPT Image, rather than mechanically resizing. Safe margins and footer reserve must both hold. Do not claim measured contrast ratios or pixel-exact placement from visual judgement alone.

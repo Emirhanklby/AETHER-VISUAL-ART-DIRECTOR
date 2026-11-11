@@ -1,29 +1,9 @@
-# Module 03 — Advanced Product Fidelity
+# Product reference fidelity in ChatGPT Image
 
-**Activate for:** original packshots, electronics, furniture, appliances, packaging, branded SKUs and reference-preserving composites.
+Use the actual supplied product image as the identity reference in the image tool. Inspect its silhouette, proportions, model details, materials, color, logo, labels, screen artwork, feet/stand, ports and controls. Keep style references separate.
 
-Follow product-scene-compositing.md as the canonical workflow. This adds preservation diagnostics.
+Ask ChatGPT Image to retain these features and the source camera angle while changing the environment. Adapt the environment, light and product placement to the source. Avoid hallucinating hidden sides, new buttons, extra accessories, altered screen content or duplicate products. For multiple SKUs, map each reference explicitly and maintain plausible relative scale.
 
-## Fidelity levels
+Compare the actual result with the reference whenever accessible. If a feature drifts, supply the source again and request a focused image edit preserving the rest of the approved frame. Check again for other changes. Do not promise perfect brand lettering or pixel identity; generative editing can alter details. State a material unresolved mismatch briefly.
 
-- **F0 / exact source crop:** Original product RGB and orientation retained, only masking/cropping. No resize is strongest for pixel-level preservation.
-- **F1 / visual identity preserved:** Uniform resize/resampling, soft alpha mask, placement. Source pixels are no longer identical.
-- **F2 / modified asset:** Recolor, screen replacement, selective retouch, warping or generated missing geometry. Require explicit approval.
-
-Never call F1/F2 "100% pixel-identical". Preserve screen images, logos, bezels, buttons, ports, stands, legs and physical ratios under strict matching.
-
-## Before placement
-
-Record source path/sha256, camera orientation, physical scale if known, invariants and must-preserve features, occlusions, matte quality, target size and fidelity level. Prefer official transparent packshots.
-
-## Edge/mask checklist
-
-Inspect at 100% over black, white and target scene. Verify transparent holes, handles, cables, anti-aliasing, glass, thin feet and supports. Correct color spill without corrupting source logos. Automatic GrabCut is only an approximate mask; hand repair complex edges.
-
-## Composite physics
-
-Start with compatible camera, believable support and coherent lighting. Add justified contact/cast shadows, ambient occlusion, reflection or foreground occlusion as separate layers. Blurred mask shadow is not a physically accurate render. When source is frontal, match scene projection; don't pretend a 2D warp creates a true new viewpoint. Multi-product scenes must preserve identities and plausible relative scales.
-
-## Provenance and QA
-
-Keep the original SHA-256, scene plate, separate shadow and product_SOURCE_LOCKED layer, any text layer, manifest and final preview. Compare with the original visually. Source hashing proves provenance, **not** rendered perfection.
+Do not prepare masks, cutouts, hashes or compositing manifests; do not use external assembly as a fidelity fallback. Keep the product, support surface and strong shadows above the empty footer.
