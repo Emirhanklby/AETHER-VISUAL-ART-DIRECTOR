@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/aether-banner.svg" alt="AETHER v3.1 — Direct the idea. Verify the vision. Concept, create, verify." width="100%" />
+</p>
+
 # AETHER — Visual Art Director v3.1
 
 **ChatGPT Image ile çalışan, konseptten nihai reklam görseline kadar süreci yöneten bir sanat yönetmeni skill’i.**
@@ -223,3 +227,9 @@ PNG hedefle; desteklenmeyen bir dosya özelliğini doğrulanmış gibi sunma.
 - Tek bir görselde aşırı ürün, çok uzun metin ve katı yerleşim talepleri sonucu zorlaştırabilir. Net brief ve güçlü hiyerarşi daha iyi yönlendirme sağlar.
 
 **Sürüm:** 3.1. Bu depodaki talimatlar mevcut v3.1 skill paketinden alınmıştır. Lisans dosyası eklenmemiştir; üçüncü taraf marka görselleri, ürün fotoğrafları ve fontlar otomatik olarak serbest kullanım hakkı kazanmaz.
+
+## AETHER görsel kimliği
+
+[SVG banner](assets/aether-banner.svg) · [Transparan logo — koyu yazı](assets/aether-logo.svg) · [Transparan logo — açık yazı](assets/aether-logo-light.svg)
+
+Geometrik mercan renkli A amblemi; koyu zemin ve sade tipografi. Logo ve banner tamamen vektördür, dış font veya görsel bağlantısı içermez. Açık zeminlerde koyu yazılı, koyu zeminlerde açık yazılı logo kullanılabilir.
