@@ -12,6 +12,14 @@ AETHER ürün fotoğraflarını, marka bilgilerini ve kampanya hedefini bir yara
 
 [İlk kullanım](#ilk-kullanım-önce-ne-yapmalısın) · [Örnekler](#kopyalanabilir-kullanım-örnekleri) · [İş akışı](#director-iş-akışı) · [Modüller](#dosyalar-ve-modüller) · [Sürüm notları](CHANGELOG.md)
 
+## Görsel örnekler
+
+Konsept sunumu ve değerlendirme panosu örnekleri. Görselleri tam boyutta açmak için üzerlerine tıklayabilirsin. Panolardaki puanlar yaratıcı değerlendirme örnekleridir; ölçülmüş reklam performansı değildir.
+
+[![AETHER — konsept sunumu ve değerlendirme örneği 1](%C3%B6rnekler1.png)](%C3%B6rnekler1.png)
+
+[![AETHER — konsept sunumu ve değerlendirme örneği 2](%C3%B6rnekler2.png)](%C3%B6rnekler2.png)
+
 ## Ne yapar?
 
 | Kullanım alanı | Örnek iş |
